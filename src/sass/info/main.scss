@@ -275,9 +275,10 @@ border-radius: 4px;
   bottom: vw(30px);
   left: 50%;
   transform: translateX(-50%);
-  max-width: vw(1140px);
+  max-width: vw(1330px);
   width: 100%;
   z-index: 99;
+  padding: 0 15px;
 
   img {
     float: right;
@@ -375,6 +376,7 @@ border-radius: 4px;
   font-family: Noah;
   font-size: vw(26px);
   font-weight: 400;
+  margin-left: vw(-55px);
 }
 
 .tools {
