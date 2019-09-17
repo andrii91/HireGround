@@ -484,6 +484,7 @@ border-radius: 4px;
 
   img {
     max-width: 100%;
+    max-height: 100px;
   }
 }
 
@@ -1171,8 +1172,12 @@ border-radius: 4px;
 }
 
 .success {
-  background: url('../images/s-bg.jpg') no-repeat center;
-  background-size: cover;
+background-color: #eef9fc;
+    background-image: url(../images/Bl9_img_bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+//  background-size: cover;
       min-height: calc(100vh - 47px);
     display: -ms-flexbox;
     display: flex;

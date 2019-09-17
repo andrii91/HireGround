@@ -48,7 +48,7 @@
   #nav-icon span {
     display: block;
     position: absolute;
-    height: 5px;
+    height: 3px;
     width: 51%;
     background: #1e2b51;
     opacity: 1;
@@ -135,7 +135,7 @@
 
   #nav-icon {
     float: right;
-    margin-top: 4px;
+    margin-top: 7px;
   }
 
   .container {
@@ -304,10 +304,13 @@
       width: 100%;
     }
   }
-
+  .how-carousel .item img {
+    min-height: inherit;
+    max-height: inherit;
+  }
   .header-top {
 
-    font-size: 18px;
+    font-size: 16px;
     line-height: 20px;
     letter-spacing: 1px;
     margin-bottom: 15px;
@@ -496,7 +499,7 @@
     .title {
       font-size: 22px;
       line-height: 1.2;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
     }
 
     p {
@@ -505,7 +508,7 @@
       font-size: 18px;
       font-weight: 400;
       line-height: 1.2;
-      margin-bottom: 40px;
+      margin-bottom: 20px;
     }
   }
 
@@ -1056,7 +1059,7 @@
 
     font-size: 18px;
     font-weight: 400;
-    margin-bottom: 70px;
+    margin-bottom: 35px;
     margin-top: 20px;
   }
 
