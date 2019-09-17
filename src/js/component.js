@@ -42,7 +42,7 @@ $(document).ready(function () {
     autoHeight: true,
     URLhashListener: true,
     autoplayHoverPause: true,
-    startPosition: 'URLHash'
+//    startPosition: 'URLHash'
 
 
   });

@@ -180,7 +180,7 @@
 
       &.fixed {
         padding-top: 5px;
-        background: #000;
+        background-color: #eef9fc;
 
         .container {
           padding-bottom: 5px;
@@ -225,7 +225,7 @@
       color: #40CDF7;
       text-decoration: none;
       padding: 10px 21px 7px;
-      background: #EEF9FC;
+      background: #fff;
       border-radius: 4px;
       transition: .3s;
       float: right;
@@ -303,7 +303,6 @@
 
       &:hover {
         background: #fff;
-        background: #ccc;
         color: #40CDF7;
         transform: scale(.95);
       }
@@ -787,7 +786,7 @@
     .subscribe-item {
       padding-top: 26px;
       position: relative;
-      margin-top: 40px;
+      margin-top: 74px;
       max-width: 340px;
 
       &:before {
