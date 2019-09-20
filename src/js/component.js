@@ -184,6 +184,8 @@ $(document).ready(function () {
       success: function (response) {}
     });*/
     
+     
+    
     dataLayer.push({'event': 'supplier_form_signup'});
     dataLayer.push({ 'userID' : '{{HG_userID_value}}', }); 
     
