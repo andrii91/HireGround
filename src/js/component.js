@@ -183,6 +183,23 @@ $(document).ready(function () {
       data: $form.serialize(),
       success: function (response) {}
     });*/
+    
+    dataLayer.push({'event': 'supplier_form_signup'});
+    dataLayer.push({ 'userID' : '{{HG_userID_value}}', }); 
+    
+    
+    var $data = '&t=transaction&tid=UA-133454370-2&cid={{random_gaID_value}}&dp={{static_value}}&uid={{HG_userID_value}}&ti={{Transaction_ID}}&tr={{Revenue}}&in={{purchased_package}}&ip={{purchased_item_price}}&iq={{number_of_months}}&ic={{subscription_identification}}&iv={{user_type}}';
+    
+    $.ajax({
+      type: 'POST',
+      url: 'https://www.google-analytics.com/collect',
+//      url: 'https://www.google-analytics.com/collect?payload_data',
+      dataType: 'json',
+      data: $data,
+      success: function (response) {}
+    });
+    
+    
 
     setTimeout(function () {
      window.location.href = "success.html";

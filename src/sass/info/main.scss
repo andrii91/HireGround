@@ -162,6 +162,10 @@ img {
   .container {
     position: relative;
     z-index: 2;
+    .row {
+      position: relative;
+      z-index: 2;
+    }
   }
 }
 
@@ -278,7 +282,7 @@ border-radius: 4px;
   transform: translateX(-50%);
   max-width: vw(1330px);
   width: 100%;
-  z-index: 99;
+  z-index: 1;
   padding: 0 15px;
 
   img {
