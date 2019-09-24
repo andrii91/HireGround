@@ -211,7 +211,7 @@ $(document).ready(function () {
   
   
     
-      var observer = lozad();
-  observer.observe();
+//      var observer = lozad();
+//  observer.observe();
 
 });

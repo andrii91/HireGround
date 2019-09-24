@@ -925,6 +925,10 @@ border-radius: 4px;
 .faqs-item {
   border-bottom: vw(1px) solid #C9C9C9;
   padding: vw(25px) 0;
+  
+  img {
+    max-width: 100%;
+  }
 
   &:first-child {
     border-top: vw(1px) solid #C9C9C9;
